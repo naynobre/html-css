@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+:root {
+    --cor1: #7C05F2;
+    --cor2: #010626;
+    --cor3: #021859;
+    --cor4: #0B59BF;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-image: url(imagens/fb68e287af07f3ce3a11693c5d04d8b8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--cor4);
+}
+
+header > h1 {
+    padding: 50px, 0px, 30px, 0px;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+}
+
+header > p {
+    padding: 50px;
+}
